@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- A simple layout with the value of the integer i -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ff8118">
+    <TextView
+            android:layout_marginLeft="16dp"
+            android:text="i = "
+            android:textSize="36dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            />
+    <TextView
+            android:id="@+id/output_i"
+            android:text="0"
+            android:textSize="36dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            />
+</LinearLayout>

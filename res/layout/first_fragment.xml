@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is the layout for the first fragment. In reality, this would be a real view, a list of
+     some elements perhaps.  Currently this is a trivial view with a background and a text view. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#f0ff35">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_fragment"
+            android:textSize="24dp"
+            android:id="@+id/ff_text"
+            android:layout_gravity="center"
+            android:layout_marginBottom="26dp"
+            android:textColor="@android:color/black"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:visibility="gone"
+            android:text="Rotate the device!"
+            android:id="@+id/secondary_text"
+            android:layout_gravity="center"
+            android:layout_marginBottom="26dp"
+            android:textColor="@android:color/black"/>
+</LinearLayout>

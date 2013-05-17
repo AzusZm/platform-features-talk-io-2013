@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">gmail-talk-io-2013</string>
+    <string name="first_fragment">Only Fragment (Try this on tablet)</string>
+    <string name="second_fragment">Second fragment, never shown</string>
+    <string name="main_topics_and_demos">Topics and Demos</string>
+    <string name="main_fragments_from_xml">Fragment from XML Resource</string>
+    <string name="main_fragments_from_newinstance">Fragment through newInstance</string>
+    <string name="main_fragment_activity_communication">Fragment Activity Communication</string>
+    <string name="main_download_manager">Download Manager</string>
+    <string name="main_create_simple_loader">Create a simple Loader</string>
+    <string name="main_create_object_cursor_loader">Create an Object Cursor Loader</string>
+    <string name="main_types_of_notifications">Types of Notifications</string>
+    <string name="main_chips_demo">Fancy senders layout: Chips</string>
+    <string name="main_google_play_services">Google Play services / Photo Sphere</string>
+    <string name="main_photo_viewer">Photo Viewer + All our slides!</string>
+</resources>

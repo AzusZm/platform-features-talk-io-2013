@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+            >
+        <Button
+                android:id="@+id/new_fragment_Scott"
+                android:text="Scott"
+                android:onClick="newFragmentScott"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+        <Button
+                android:id="@+id/new_fragment_Viki"
+                android:text="Viki"
+                android:onClick="newFragmentViki"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+    </LinearLayout>
+    <!-- This is where we will put the newly created fragment-->
+    <FrameLayout
+            android:id="@+id/fragment_anchor"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" />
+</LinearLayout>
+

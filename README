@@ -1,5 +1,7 @@
-Wow, you have found our repository and have tried to get
-our source!  Congratulations! Come talk to us just after
-our talk and tell us how you did it.
+This is code accompanying the Google IO talk given in 2013 by Scott
+Kennedy and Vikram Aggarwal
 
-Our talk is at 2pm today in Room 12.  See you there!
+The code demonstrates some ideas from the Gmail and Email application
+on how to leverage the Android platform and improve the quality of
+your application and the speed of iteration.
+

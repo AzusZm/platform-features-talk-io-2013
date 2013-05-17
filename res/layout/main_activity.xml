@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/main_topics_and_demos"
+                android:textSize="24dp"/>
+        <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:onClick="resourceDemo"
+                android:text="@string/main_fragments_from_xml" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="newInstanceDemo"
+                android:text="@string/main_fragments_from_newinstance" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="communicateDemo"
+                android:text="@string/main_fragment_activity_communication" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="downloadFile"
+                android:text="@string/main_download_manager" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="launchNotifications"
+                android:text="@string/main_types_of_notifications" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="simpleLoaderDemo"
+                android:text="@string/main_create_simple_loader" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="objectLoaderDemo"
+                android:text="@string/main_create_object_cursor_loader" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="launchChips"
+                android:text="@string/main_chips_demo" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="launchPhotoSphere"
+                android:text="@string/main_google_play_services" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="launchPhotoViewer"
+                android:text="@string/main_photo_viewer" />
+
+    </LinearLayout>
+</ScrollView>
